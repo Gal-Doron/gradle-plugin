@@ -16,5 +16,5 @@ dependencies {
   implementation 'org.yaml:snakeyaml:1.19'
   implementation 'commons-codec:commons-codec:1.8'
   implementation 'org.codehaus.plexus:plexus-utils:2.0.3'
-  implementation 'org.apache.struts:struts2-core:2.0.5'
+  implementation 'org.apache.struts:struts2-core:2.5.26'
 }
