@@ -1,16 +1,12 @@
 plugins {
 	id 'java'
-	id "io.freefair.lombok" version "6.2.0"
 }
 
 version '1.0-Ece-Snapshot'
 sourceCompatibility = 1.8
 
 repositories {
-  mavenLocal()
     mavenCentral()
-    maven { url = uri('https://packages.confluent.io/maven/') }
-    maven { url = uri('https://repo.maven.apache.org/maven2') }
 }
 
 dependencies {
