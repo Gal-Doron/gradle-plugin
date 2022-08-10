@@ -1,5 +1,7 @@
 plugins {
 	id 'java'
+	id "application"
+	id "io.freefair.lombok" version "6.2.0"
 }
 
 version '1.0-Ece-Snapshot'
@@ -17,4 +19,9 @@ dependencies {
   implementation 'commons-codec:commons-codec:1.8'
   implementation 'org.codehaus.plexus:plexus-utils:2.0.3'
   implementation 'org.apache.struts:struts2-core:2.0.5'
+}
+
+application {
+    // Define the main class for the application.
+    mainClassName = 'client.repo.App'
 }
