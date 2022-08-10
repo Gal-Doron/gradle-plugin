@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
   implementation 'com.fasterxml.jackson.core:jackson-databind:2.7.9'
-  implementation 'org.apache.commons:commons-compress:1.11'
+  implementation 'org.apache.commons:commons-compress:1.21'
   implementation 'io.netty:netty-codec-http:4.1.39.Final'
   implementation 'org.yaml:snakeyaml:1.19'
   implementation 'commons-codec:commons-codec:1.8'
